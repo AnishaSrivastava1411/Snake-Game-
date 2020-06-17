@@ -3,7 +3,7 @@
 </head>
 <body>
     
-	<canvas style="margin-top:30px;display: block ;padding-left: 0; padding-right: 0; margin-left: auto; margin-right: auto;" id="myCanvas" width="520" height="520">
+	<canvas style="margin-top:30px;display: block ;padding-left: 0; padding-right: 0; margin-left: auto; margin-right: auto;" id="snake-game" width="520" height="520">
 		
 	</canvas>
 	<br>
@@ -14,7 +14,7 @@
 		var state = 0;// 0->right, 1->down, 2- left, 3 is up;
 
 		
-		var canvas = document.getElementById("myCanvas");
+		var canvas = document.getElementById("snake-game");
 		var ctx = canvas.getContext("2d");
 		ctx.fillStyle = "#A7D948";
 		ctx.fillRect(0, 0, 520, 520);
